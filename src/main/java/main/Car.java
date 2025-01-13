@@ -12,7 +12,7 @@ public class Car {
     }
 
     public void carStatus() {
-        System.out.println("Auto: " + brand + " " + model + ", Nopeus" + speed + " km/h");
+        System.out.println("Auto: " + brand + " " + model + ", Nopeus: " + speed + " km/h");
     }
 
     public String getBrand() {
