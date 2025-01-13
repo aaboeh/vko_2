@@ -12,6 +12,7 @@ public class App
         String brand = sc.nextLine();
         System.out.print("Anna auton malli: ");
         String model = sc.nextLine();
+        int speed = 0;
         
         Car car = new Car(brand, model, speed);
 
