@@ -13,7 +13,7 @@ public class App
         System.out.print("Anna auton malli: ");
         String model = sc.nextLine();
         
-        Car car = new Car(brand, model);
+        Car car = new Car(brand, model, speed);
 
         boolean exit = false;
         while(!exit) {
