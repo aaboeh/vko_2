@@ -23,8 +23,6 @@ public class App
             System.out.println("3) Kiihdytä autoa");
             System.out.println("4) Hidasta autoa");
             System.out.println("0) Lopeta ohjelma");
-            System.out.print("Valitse toiminto: ");
-            sc.nextLine();
 
             if (sc.hasNext()) {
                 int i = 0;
